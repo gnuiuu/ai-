@@ -1,0 +1,53 @@
+{
+  "paper": "Artificial Intelligence, Algorithmic Pricing, and Collusion (AER 2020)",
+  "scope": "reduced-scale reconstruction from the paper equations",
+  "representative": {
+    "sessions": 30,
+    "mean_delta_profit": 0.6451747089567027,
+    "median_delta_profit": 0.6538161264671949,
+    "sd_delta_profit": 0.1375144260254114,
+    "mean_steps": 1883500.0,
+    "converged_share": 1.0,
+    "symmetric_fixed_share": 0.3333333333333333,
+    "asymmetric_fixed_share": 0.3333333333333333,
+    "period2_cycle_share": 0.16666666666666666,
+    "nash_on_path_share": 0.03333333333333333,
+    "mean_qloss_on_path": 0.0500443570060259,
+    "mean_qloss_all": 0.06477580564458217,
+    "mean_punishment_pct": 7.771929797032291,
+    "share_sessions_with_price_cut": 0.8333333333333334,
+    "mean_long_run_price": 1.684900546244547,
+    "pN": 1.4729265169917458,
+    "pM": 1.924981968901826
+  },
+  "grid": {
+    "cells": 64,
+    "sessions": 256,
+    "mean_delta_profit": 0.5574085344210572,
+    "delta_min": 0.3419781486069756,
+    "delta_max": 0.8207470213194085,
+    "corr_delta_punishment_harshness": 0.598151315678035
+  },
+  "discount": {
+    "sessions": 54,
+    "mean_delta_by_delta": {
+      "0": 0.18496912817325986,
+      "0.2": 0.2682652041577906,
+      "0.35": 0.24261442273653444,
+      "0.5": 0.27452278244690037,
+      "0.65": 0.32290759583043954,
+      "0.8": 0.3226027322799331,
+      "0.9": 0.686932010540675,
+      "0.95": 0.7136262037554467,
+      "0.99": 0.7053673602419036
+    }
+  },
+  "players": {
+    "sessions": 24,
+    "mean_delta_by_n": {
+      "2": 0.5885294300911026,
+      "3": 0.34685789268601636,
+      "4": 0.20866664791963296
+    }
+  }
+}

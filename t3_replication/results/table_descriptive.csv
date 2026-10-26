@@ -1,0 +1,14 @@
+Metric,Value,SD
+Sessions,30.0,
+Average profit gain Δ,0.6451747089567027,0.1375
+Median profit gain Δ,0.6538161264671949,
+Share fixed price (cycle length 1),0.6666666666666666,
+Share symmetric fixed price,0.3333333333333333,
+Share asymmetric fixed price,0.3333333333333333,
+Share 2-period cycle,0.1666666666666666,
+Share Nash on path (exact policy match),0.0333333333333333,
+Average Q-loss on path,0.0500443570060259,0.0504
+Average Q-loss all states,0.0647758056445821,0.0514
+Price cut by nondeviator at τ=2 (%),7.771929797032291,6.167975129396936
+Share sessions with nondeviator price cut,0.8333333333333334,
+Average period to recover within 1%,5.896551724137931,
